@@ -8,7 +8,18 @@ console.log('Snack Array e Oggetti')
 //proprietà: nome e peso.
 //Stampare a schermo la bici con peso minore.
 
+const bicicletta1 = {   
+    nome: 'mountainbike',
+    peso: '10kg'
+}
+const bicicletta2 = {
+    nome: 'speedster',
+    peso: '10kg'
+}
 
+const biciclette = [bicicletta1,bicicletta2]
+
+console.log(biciclette)
 
 //Snack2
 //Creare un array di oggetti di squadre di calcio.
