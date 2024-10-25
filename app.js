@@ -8,18 +8,34 @@ console.log('Snack Array e Oggetti')
 //proprietà: nome e peso.
 //Stampare a schermo la bici con peso minore.
 
-const bicicletta1 = {   
-    nome: 'mountainbike',
-    peso: '10kg'
+const biciArray = [{
+    nome: 'bicicletta1',
+    peso: 17,
+},
+{
+    nome: 'bicicletta2',
+    peso: 10,
+},
+{
+    nome: 'bicicletta3',
+    peso: 13
 }
-const bicicletta2 = {
-    nome: 'speedster',
-    peso: '10kg'
-}
+]
+  
+console.log(biciArray)
 
-const biciclette = [bicicletta1,bicicletta2]
+//const bicicletta1, bicicletta2 {
 
-console.log(biciclette)
+ //   if (bicicletta1 > bicicletta2) {
+   // console.log('mountainbike ha il peso maggiore')
+//} else if (bicicletta2 < bicicletta1) {
+  //  console.log('speedster ha il peso maggiore')
+
+
+//console.log(bici)
+//const biciclette = [bicicletta1,bicicletta2]
+
+//console.log(biciclette)
 
 //Snack2
 //Creare un array di oggetti di squadre di calcio.
@@ -28,7 +44,7 @@ console.log(biciclette)
 //tutte settate a 0.
 //Generare numeri random al posto degli 0 nelle proprietà
 //“punti” fatti e “falli subiti”.
-//Infine, creiamo un nuovo array i cui elementi contengono solo 
+//Infine, creiamo un nuovo array i cui elementi contengono solo
 //nomi e falli subiti e stampiamo tutto in console.
 
 
