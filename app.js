@@ -8,21 +8,37 @@ console.log('Snack Array e Oggetti')
 //proprietà: nome e peso.
 //Stampare a schermo la bici con peso minore.
 
+// vado a scrivere l'array
+
 const biciArray = [{
     nome: 'bicicletta1',
     peso: 17,
 },
 {
     nome: 'bicicletta2',
-    peso: 10,
+    peso: 12,
 },
 {
     nome: 'bicicletta3',
-    peso: 13
+    peso: 13,
 }
 ]
   
-console.log(biciArray)
+
+const biciLeggera = biciArray [0]
+
+// vado ad eseguire il ciclo
+for (let i = 0; i < biciArray.length; i++){  
+    const newBike = biciArray [0]
+    console.log(newBike)
+
+if (newBike.peso < biciArray.peso){
+    console.log(newBike.peso,biciArray.peso)
+}
+}
+
+
+
 
 //const bicicletta1, bicicletta2 {
 
@@ -36,6 +52,15 @@ console.log(biciArray)
 //const biciclette = [bicicletta1,bicicletta2]
 
 //console.log(biciclette)
+
+
+
+
+
+
+
+
+
 
 //Snack2
 //Creare un array di oggetti di squadre di calcio.
